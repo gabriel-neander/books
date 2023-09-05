@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+footer {
+    text-align: center;
+    overflow: auto;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;;
+}
+#content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin: -8px;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(45, 43, 143);
+    font-family: 'Roboto', sans-serif;
+}
+#content #menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#content p {
+    padding: 10px 50px;
+    font-size: 25px;
+    color: #fff;
+}
+#content p a:hover {
+    font-weight: 700;
+}
+#content p:nth-child(1) {
+    font-weight: 900;
+    border-radius: 7px;
+    border: 2px solid #cecece;
+}
+#content p:nth-child(1):hover {
+    background-color: rgb(24, 24, 110);
+}
+#inputs {
+    margin: 5% 0 0.5% 0;
+    border: 1px solid #cecece;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column; 
+    font-family: 'Roboto', sans-serif;  
+}
+#inputs p {
+    padding: 0;
+}
+#inputs input {
+    padding: 20px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+#inputs input[type=submit] {
+        width: 100%;
+        background-color: rgb(24, 24, 110);
+        border: 0px;
+        color: #fff;
+        font-size: 20px;
+}
+#inputs input[type="submit"]:active {
+        background-color: rgb(16, 16, 65);
+}
+#inputs p:last-child{
+    text-align: center;
+    font-weight: bold;
+    color:rgb(16, 16, 65);
+    font-size: 19px;
+}
+#list{
+    border: 1px solid #cecece;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;   
+    font-family: 'Roboto', sans-serif;
+}
+#list #titlesB {
+    font-weight: bold;
+    font-size: 25px;
+}
+#list tr td {
+    padding: 20px;
+    width: 100%;
+    background-color: #cfcfe7;
+}
